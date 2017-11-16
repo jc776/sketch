@@ -1,44 +1,441 @@
 [HMR] Attempting websocket connection to http://localhost:3123
-sketch-fastopt.js:12835 main()
-sketch-fastopt.js:12835 creating proxy
-sketch-fastopt.js:12835 Sat Sep 30 2017 22:21:42 GMT+0100 (GMT Daylight Time) write A
-sketch-fastopt.js:12835 Sat Sep 30 2017 22:21:42 GMT+0100 (GMT Daylight Time) read {"value":"A"}
-index.js:425 [HMR] Websocket connection successful.
-sketch-fastopt.js:12835 change to B
-sketch-fastopt.js:12835 Sat Sep 30 2017 22:21:42 GMT+0100 (GMT Daylight Time) write B
-sketch-fastopt.js:12835 {"value":"B"}
-sketch-fastopt.js:12835 Sat Sep 30 2017 22:21:42 GMT+0100 (GMT Daylight Time) read {"value":"B"}
-sketch-fastopt.js:12835 Sat Sep 30 2017 22:21:42 GMT+0100 (GMT Daylight Time) read {"value":"B"}
-sketch-fastopt.js:12835 Sat Sep 30 2017 22:21:42 GMT+0100 (GMT Daylight Time) read {"value":"B"}
-sketch-fastopt.js:12835 Sat Sep 30 2017 22:21:42 GMT+0100 (GMT Daylight Time) read {"value":"A"}
-sketch-fastopt.js:12835 change to A
-sketch-fastopt.js:12835 Sat Sep 30 2017 22:21:42 GMT+0100 (GMT Daylight Time) write A
-sketch-fastopt.js:12835 {"value":"A"}
-sketch-fastopt.js:12835 Sat Sep 30 2017 22:21:42 GMT+0100 (GMT Daylight Time) read {"value":"A"}
-sketch-fastopt.js:12835 Sat Sep 30 2017 22:21:42 GMT+0100 (GMT Daylight Time) read {"value":"A"}
-sketch-fastopt.js:12835 Sat Sep 30 2017 22:21:42 GMT+0100 (GMT Daylight Time) read {"value":"A"}
-sketch-fastopt.js:12835 Sat Sep 30 2017 22:21:42 GMT+0100 (GMT Daylight Time) read {"value":"B"}
-sketch-fastopt.js:12835 change to B
-sketch-fastopt.js:12835 Sat Sep 30 2017 22:21:42 GMT+0100 (GMT Daylight Time) write B
-sketch-fastopt.js:12835 {"value":"B"}
-sketch-fastopt.js:12835 Sat Sep 30 2017 22:21:42 GMT+0100 (GMT Daylight Time) read {"value":"B"}
-sketch-fastopt.js:12835 Sat Sep 30 2017 22:21:42 GMT+0100 (GMT Daylight Time) read {"value":"B"}
-sketch-fastopt.js:12835 Sat Sep 30 2017 22:21:42 GMT+0100 (GMT Daylight Time) read {"value":"B"}
-sketch-fastopt.js:12835 Sat Sep 30 2017 22:21:42 GMT+0100 (GMT Daylight Time) read {"value":"A"}
-sketch-fastopt.js:12837 main()
-sketch-fastopt.js:12837 updating proxy
-sketch-fastopt.js:12835 Sat Sep 30 2017 22:21:42 GMT+0100 (GMT Daylight Time) read {"value":"B"}
-sketch-fastopt.js:12835 Sat Sep 30 2017 22:21:42 GMT+0100 (GMT Daylight Time) read {"value":"B"}
-sketch-fastopt.js:12835 scala.MatchError: B (of class com.jc776.sketch.example.ReactSwap$B$)
-sketch-fastopt.js:12835   at $c_s_MatchError.$c_jl_Throwable.fillInStackTrace__jl_Throwable(eval at <anonymous> (http://localhost:9966/bundle.js:24503:20), <anonymous>:6097:14)
-sketch-fastopt.js:12835   at $c_s_MatchError.$c_jl_Throwable.init___T__jl_Throwable(eval at <anonymous> (http://localhost:9966/bundle.js:24503:20), <anonymous>:6196:8)
-sketch-fastopt.js:12835   at scala.MatchError.<init>(eval at <anonymous> (http://localhost:9966/bundle.js:24503:20), <anonymous>:10293:52)
-sketch-fastopt.js:12835   at com.jc776.sketch.example.ReactSwap$Def.render(eval at <anonymous> (http://localhost:9966/bundle.js:24503:20), <anonymous>:9843:35)
-sketch-fastopt.js:12835   at com.jc776.sketch.example.ReactSwap$Def.render(eval at <anonymous> (http://localhost:9966/bundle.js:24503:20), <anonymous>:9872:14)
-sketch-fastopt.js:12835   at com.jc776.sketch.example.ReactSwap$Def.proxiedMethod [as render](http://localhost:9966/bundle.js:55172:30)
-sketch-fastopt.js:12835   at {anonymous}()(http://localhost:9966/bundle.js:43471:21)
-sketch-fastopt.js:12835   at measureLifeCyclePerf(http://localhost:9966/bundle.js:42751:12)
-sketch-fastopt.js:12835   at ReactCompositeComponentWrapper._renderValidatedComponentWithoutOwnerOrContext(http://localhost:9966/bundle.js:43470:25)
-sketch-fastopt.js:12835   at ReactCompositeComponentWrapper._renderValidatedComponent(http://localhost:9966/bundle.js:43497:32)
-index.js:511 [HMR] Error applying update $c_s_MatchError {s$1: null, e$1: null, stackTrace$1: ArrayClass, objString$4: "B (of class com.jc776.sketch.example.ReactSwap$B$)", obj$4: $c_Lcom_jc776_sketch_example_ReactSwap$B$, …}
-index.js:514 [HMR] Updated modules (2) ["client\target\scala-2.12\sketch-fastopt.js", "client\index.js"]
+bundle.js:13322 main()
+bundle.js:13322 creating proxy
+bundle.js:13322 Thu Nov 16 2017 21:50:19 GMT+0000 (GMT Standard Time) write A
+bundle.js:13322 Thu Nov 16 2017 21:50:19 GMT+0000 (GMT Standard Time) read {"value":"A"}
+bundle.js:24913 [HMR] Websocket connection successful.
+sketch-fastopt.js:13309 change to B
+sketch-fastopt.js:13309 Thu Nov 16 2017 21:50:19 GMT+0000 (GMT Standard Time) write B
+sketch-fastopt.js:13309 Thu Nov 16 2017 21:50:19 GMT+0000 (GMT Standard Time) read {"value":"B"}
+sketch-fastopt.js:13309 Thu Nov 16 2017 21:50:19 GMT+0000 (GMT Standard Time) read {"value":"B"}
+sketch-fastopt.js:13309 Thu Nov 16 2017 21:50:19 GMT+0000 (GMT Standard Time) read {"value":"B"}
+sketch-fastopt.js:13309 Thu Nov 16 2017 21:50:19 GMT+0000 (GMT Standard Time) read {"value":"A"}
+sketch-fastopt.js:13309 change to A
+sketch-fastopt.js:13309 Thu Nov 16 2017 21:50:19 GMT+0000 (GMT Standard Time) write A
+sketch-fastopt.js:13309 Thu Nov 16 2017 21:50:19 GMT+0000 (GMT Standard Time) read {"value":"A"}
+sketch-fastopt.js:13309 Thu Nov 16 2017 21:50:19 GMT+0000 (GMT Standard Time) read {"value":"A"}
+sketch-fastopt.js:13309 Thu Nov 16 2017 21:50:19 GMT+0000 (GMT Standard Time) read {"value":"A"}
+sketch-fastopt.js:13309 Thu Nov 16 2017 21:50:19 GMT+0000 (GMT Standard Time) read {"value":"B"}
+sketch-fastopt.js:13311 main()
+sketch-fastopt.js:13311 updating proxy
+sketch-fastopt.js:13309 Thu Nov 16 2017 21:50:19 GMT+0000 (GMT Standard Time) read {"value":"A"}
+sketch-fastopt.js:13309 Thu Nov 16 2017 21:50:19 GMT+0000 (GMT Standard Time) read {"value":"A"}
+sketch-fastopt.js:13309 scala.MatchError: A (of class com.jc776.sketch.example.ReactSwap$A$)
+$c_jl_JSConsoleBasedPrintStream.doWriteLine__p4__T__V @ sketch-fastopt.js:13309
+$c_jl_JSConsoleBasedPrintStream.java$lang$JSConsoleBasedPrintStream$$printString__T__V @ sketch-fastopt.js:13289
+$c_Ljava_io_PrintStream.println__T__V @ sketch-fastopt.js:12947
+(anonymous) @ sketch-fastopt.js:6324
+$c_jl_Throwable.printStackTrace__Ljava_io_PrintStream__V @ sketch-fastopt.js:6329
+$c_Lcom_jc776_sketch_Sketch$.main__V @ sketch-fastopt.js:1814
+$c_Lcom_jc776_sketch_Sketch$.$$js$exported$meth$main__O @ sketch-fastopt.js:1822
+$c_Lcom_jc776_sketch_Sketch$.main @ sketch-fastopt.js:1825
+(anonymous) @ client\client\index.js:2
+2../target/scala-2.12/sketch-fastopt.js @ bundle.js:8
+s @ _prelude.js:1
+(anonymous) @ _prelude.js:1
+(anonymous) @ index.js:364
+arrayEach @ node_modules\lodash\node_modules\lodash\_arrayEach.js:15
+forEach @ node_modules\lodash\node_modules\lodash\forEach.js:38
+moduleHotApply @ index.js:362
+acceptNewModules @ index.js:509
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Socket.onevent @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\socket.js:270
+Socket.onpacket @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\socket.js:228
+(anonymous) @ node_modules\component-bind\node_modules\component-bind\index.js:21
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Manager.ondecoded @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\manager.js:332
+(anonymous) @ node_modules\component-bind\node_modules\component-bind\index.js:21
+Emitter.emit @ node_modules\socket.io-parser\node_modules\component-emitter\node_modules\socket.io-parser\node_modules\component-emitter\index.js:134
+Decoder.add @ node_modules\socket.io-parser\node_modules\socket.io-parser\index.js:246
+Manager.ondata @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\manager.js:322
+(anonymous) @ node_modules\component-bind\node_modules\component-bind\index.js:21
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Socket.onPacket @ socket.js:451
+(anonymous) @ socket.js:268
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Transport.onPacket @ node_modules\engine.io-client\lib\node_modules\engine.io-client\lib\transport.js:145
+Transport.onData @ node_modules\engine.io-client\lib\node_modules\engine.io-client\lib\transport.js:137
+ws.onmessage @ websocket.js:146
+sketch-fastopt.js:13309   at $c_s_MatchError.$c_jl_Throwable.fillInStackTrace__jl_Throwable(eval at <anonymous> (http://localhost:9966/bundle.js:24968:20), <anonymous>:6296:14)
+$c_jl_JSConsoleBasedPrintStream.doWriteLine__p4__T__V @ sketch-fastopt.js:13309
+$c_jl_JSConsoleBasedPrintStream.java$lang$JSConsoleBasedPrintStream$$printString__T__V @ sketch-fastopt.js:13289
+$c_Ljava_io_PrintStream.println__T__V @ sketch-fastopt.js:12947
+(anonymous) @ sketch-fastopt.js:6324
+$c_jl_Throwable.printStackTrace__Ljava_io_PrintStream__V @ sketch-fastopt.js:6334
+$c_Lcom_jc776_sketch_Sketch$.main__V @ sketch-fastopt.js:1814
+$c_Lcom_jc776_sketch_Sketch$.$$js$exported$meth$main__O @ sketch-fastopt.js:1822
+$c_Lcom_jc776_sketch_Sketch$.main @ sketch-fastopt.js:1825
+(anonymous) @ client\client\index.js:2
+2../target/scala-2.12/sketch-fastopt.js @ bundle.js:8
+s @ _prelude.js:1
+(anonymous) @ _prelude.js:1
+(anonymous) @ index.js:364
+arrayEach @ node_modules\lodash\node_modules\lodash\_arrayEach.js:15
+forEach @ node_modules\lodash\node_modules\lodash\forEach.js:38
+moduleHotApply @ index.js:362
+acceptNewModules @ index.js:509
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Socket.onevent @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\socket.js:270
+Socket.onpacket @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\socket.js:228
+(anonymous) @ node_modules\component-bind\node_modules\component-bind\index.js:21
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Manager.ondecoded @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\manager.js:332
+(anonymous) @ node_modules\component-bind\node_modules\component-bind\index.js:21
+Emitter.emit @ node_modules\socket.io-parser\node_modules\component-emitter\node_modules\socket.io-parser\node_modules\component-emitter\index.js:134
+Decoder.add @ node_modules\socket.io-parser\node_modules\socket.io-parser\index.js:246
+Manager.ondata @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\manager.js:322
+(anonymous) @ node_modules\component-bind\node_modules\component-bind\index.js:21
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Socket.onPacket @ socket.js:451
+(anonymous) @ socket.js:268
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Transport.onPacket @ node_modules\engine.io-client\lib\node_modules\engine.io-client\lib\transport.js:145
+Transport.onData @ node_modules\engine.io-client\lib\node_modules\engine.io-client\lib\transport.js:137
+ws.onmessage @ websocket.js:146
+sketch-fastopt.js:13309   at $c_s_MatchError.$c_jl_Throwable.init___T__jl_Throwable(eval at <anonymous> (http://localhost:9966/bundle.js:24968:20), <anonymous>:6318:8)
+$c_jl_JSConsoleBasedPrintStream.doWriteLine__p4__T__V @ sketch-fastopt.js:13309
+$c_jl_JSConsoleBasedPrintStream.java$lang$JSConsoleBasedPrintStream$$printString__T__V @ sketch-fastopt.js:13289
+$c_Ljava_io_PrintStream.println__T__V @ sketch-fastopt.js:12947
+(anonymous) @ sketch-fastopt.js:6324
+$c_jl_Throwable.printStackTrace__Ljava_io_PrintStream__V @ sketch-fastopt.js:6334
+$c_Lcom_jc776_sketch_Sketch$.main__V @ sketch-fastopt.js:1814
+$c_Lcom_jc776_sketch_Sketch$.$$js$exported$meth$main__O @ sketch-fastopt.js:1822
+$c_Lcom_jc776_sketch_Sketch$.main @ sketch-fastopt.js:1825
+(anonymous) @ client\client\index.js:2
+2../target/scala-2.12/sketch-fastopt.js @ bundle.js:8
+s @ _prelude.js:1
+(anonymous) @ _prelude.js:1
+(anonymous) @ index.js:364
+arrayEach @ node_modules\lodash\node_modules\lodash\_arrayEach.js:15
+forEach @ node_modules\lodash\node_modules\lodash\forEach.js:38
+moduleHotApply @ index.js:362
+acceptNewModules @ index.js:509
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Socket.onevent @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\socket.js:270
+Socket.onpacket @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\socket.js:228
+(anonymous) @ node_modules\component-bind\node_modules\component-bind\index.js:21
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Manager.ondecoded @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\manager.js:332
+(anonymous) @ node_modules\component-bind\node_modules\component-bind\index.js:21
+Emitter.emit @ node_modules\socket.io-parser\node_modules\component-emitter\node_modules\socket.io-parser\node_modules\component-emitter\index.js:134
+Decoder.add @ node_modules\socket.io-parser\node_modules\socket.io-parser\index.js:246
+Manager.ondata @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\manager.js:322
+(anonymous) @ node_modules\component-bind\node_modules\component-bind\index.js:21
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Socket.onPacket @ socket.js:451
+(anonymous) @ socket.js:268
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Transport.onPacket @ node_modules\engine.io-client\lib\node_modules\engine.io-client\lib\transport.js:145
+Transport.onData @ node_modules\engine.io-client\lib\node_modules\engine.io-client\lib\transport.js:137
+ws.onmessage @ websocket.js:146
+sketch-fastopt.js:13309   at scala.MatchError.<init>(eval at <anonymous> (http://localhost:9966/bundle.js:24968:20), <anonymous>:10765:52)
+$c_jl_JSConsoleBasedPrintStream.doWriteLine__p4__T__V @ sketch-fastopt.js:13309
+$c_jl_JSConsoleBasedPrintStream.java$lang$JSConsoleBasedPrintStream$$printString__T__V @ sketch-fastopt.js:13289
+$c_Ljava_io_PrintStream.println__T__V @ sketch-fastopt.js:12947
+(anonymous) @ sketch-fastopt.js:6324
+$c_jl_Throwable.printStackTrace__Ljava_io_PrintStream__V @ sketch-fastopt.js:6334
+$c_Lcom_jc776_sketch_Sketch$.main__V @ sketch-fastopt.js:1814
+$c_Lcom_jc776_sketch_Sketch$.$$js$exported$meth$main__O @ sketch-fastopt.js:1822
+$c_Lcom_jc776_sketch_Sketch$.main @ sketch-fastopt.js:1825
+(anonymous) @ client\client\index.js:2
+2../target/scala-2.12/sketch-fastopt.js @ bundle.js:8
+s @ _prelude.js:1
+(anonymous) @ _prelude.js:1
+(anonymous) @ index.js:364
+arrayEach @ node_modules\lodash\node_modules\lodash\_arrayEach.js:15
+forEach @ node_modules\lodash\node_modules\lodash\forEach.js:38
+moduleHotApply @ index.js:362
+acceptNewModules @ index.js:509
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Socket.onevent @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\socket.js:270
+Socket.onpacket @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\socket.js:228
+(anonymous) @ node_modules\component-bind\node_modules\component-bind\index.js:21
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Manager.ondecoded @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\manager.js:332
+(anonymous) @ node_modules\component-bind\node_modules\component-bind\index.js:21
+Emitter.emit @ node_modules\socket.io-parser\node_modules\component-emitter\node_modules\socket.io-parser\node_modules\component-emitter\index.js:134
+Decoder.add @ node_modules\socket.io-parser\node_modules\socket.io-parser\index.js:246
+Manager.ondata @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\manager.js:322
+(anonymous) @ node_modules\component-bind\node_modules\component-bind\index.js:21
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Socket.onPacket @ socket.js:451
+(anonymous) @ socket.js:268
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Transport.onPacket @ node_modules\engine.io-client\lib\node_modules\engine.io-client\lib\transport.js:145
+Transport.onData @ node_modules\engine.io-client\lib\node_modules\engine.io-client\lib\transport.js:137
+ws.onmessage @ websocket.js:146
+sketch-fastopt.js:13309   at com.jc776.sketch.example.ReactSwap$Def.render(eval at <anonymous> (http://localhost:9966/bundle.js:24968:20), <anonymous>:10289:35)
+$c_jl_JSConsoleBasedPrintStream.doWriteLine__p4__T__V @ sketch-fastopt.js:13309
+$c_jl_JSConsoleBasedPrintStream.java$lang$JSConsoleBasedPrintStream$$printString__T__V @ sketch-fastopt.js:13289
+$c_Ljava_io_PrintStream.println__T__V @ sketch-fastopt.js:12947
+(anonymous) @ sketch-fastopt.js:6324
+$c_jl_Throwable.printStackTrace__Ljava_io_PrintStream__V @ sketch-fastopt.js:6334
+$c_Lcom_jc776_sketch_Sketch$.main__V @ sketch-fastopt.js:1814
+$c_Lcom_jc776_sketch_Sketch$.$$js$exported$meth$main__O @ sketch-fastopt.js:1822
+$c_Lcom_jc776_sketch_Sketch$.main @ sketch-fastopt.js:1825
+(anonymous) @ client\client\index.js:2
+2../target/scala-2.12/sketch-fastopt.js @ bundle.js:8
+s @ _prelude.js:1
+(anonymous) @ _prelude.js:1
+(anonymous) @ index.js:364
+arrayEach @ node_modules\lodash\node_modules\lodash\_arrayEach.js:15
+forEach @ node_modules\lodash\node_modules\lodash\forEach.js:38
+moduleHotApply @ index.js:362
+acceptNewModules @ index.js:509
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Socket.onevent @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\socket.js:270
+Socket.onpacket @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\socket.js:228
+(anonymous) @ node_modules\component-bind\node_modules\component-bind\index.js:21
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Manager.ondecoded @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\manager.js:332
+(anonymous) @ node_modules\component-bind\node_modules\component-bind\index.js:21
+Emitter.emit @ node_modules\socket.io-parser\node_modules\component-emitter\node_modules\socket.io-parser\node_modules\component-emitter\index.js:134
+Decoder.add @ node_modules\socket.io-parser\node_modules\socket.io-parser\index.js:246
+Manager.ondata @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\manager.js:322
+(anonymous) @ node_modules\component-bind\node_modules\component-bind\index.js:21
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Socket.onPacket @ socket.js:451
+(anonymous) @ socket.js:268
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Transport.onPacket @ node_modules\engine.io-client\lib\node_modules\engine.io-client\lib\transport.js:145
+Transport.onData @ node_modules\engine.io-client\lib\node_modules\engine.io-client\lib\transport.js:137
+ws.onmessage @ websocket.js:146
+sketch-fastopt.js:13309   at com.jc776.sketch.example.ReactSwap$Def.render(eval at <anonymous> (http://localhost:9966/bundle.js:24968:20), <anonymous>:10318:14)
+$c_jl_JSConsoleBasedPrintStream.doWriteLine__p4__T__V @ sketch-fastopt.js:13309
+$c_jl_JSConsoleBasedPrintStream.java$lang$JSConsoleBasedPrintStream$$printString__T__V @ sketch-fastopt.js:13289
+$c_Ljava_io_PrintStream.println__T__V @ sketch-fastopt.js:12947
+(anonymous) @ sketch-fastopt.js:6324
+$c_jl_Throwable.printStackTrace__Ljava_io_PrintStream__V @ sketch-fastopt.js:6334
+$c_Lcom_jc776_sketch_Sketch$.main__V @ sketch-fastopt.js:1814
+$c_Lcom_jc776_sketch_Sketch$.$$js$exported$meth$main__O @ sketch-fastopt.js:1822
+$c_Lcom_jc776_sketch_Sketch$.main @ sketch-fastopt.js:1825
+(anonymous) @ client\client\index.js:2
+2../target/scala-2.12/sketch-fastopt.js @ bundle.js:8
+s @ _prelude.js:1
+(anonymous) @ _prelude.js:1
+(anonymous) @ index.js:364
+arrayEach @ node_modules\lodash\node_modules\lodash\_arrayEach.js:15
+forEach @ node_modules\lodash\node_modules\lodash\forEach.js:38
+moduleHotApply @ index.js:362
+acceptNewModules @ index.js:509
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Socket.onevent @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\socket.js:270
+Socket.onpacket @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\socket.js:228
+(anonymous) @ node_modules\component-bind\node_modules\component-bind\index.js:21
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Manager.ondecoded @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\manager.js:332
+(anonymous) @ node_modules\component-bind\node_modules\component-bind\index.js:21
+Emitter.emit @ node_modules\socket.io-parser\node_modules\component-emitter\node_modules\socket.io-parser\node_modules\component-emitter\index.js:134
+Decoder.add @ node_modules\socket.io-parser\node_modules\socket.io-parser\index.js:246
+Manager.ondata @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\manager.js:322
+(anonymous) @ node_modules\component-bind\node_modules\component-bind\index.js:21
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Socket.onPacket @ socket.js:451
+(anonymous) @ socket.js:268
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Transport.onPacket @ node_modules\engine.io-client\lib\node_modules\engine.io-client\lib\transport.js:145
+Transport.onData @ node_modules\engine.io-client\lib\node_modules\engine.io-client\lib\transport.js:137
+ws.onmessage @ websocket.js:146
+sketch-fastopt.js:13309   at com.jc776.sketch.example.ReactSwap$Def.proxiedMethod [as render](http://localhost:9966/bundle.js:55374:30)
+$c_jl_JSConsoleBasedPrintStream.doWriteLine__p4__T__V @ sketch-fastopt.js:13309
+$c_jl_JSConsoleBasedPrintStream.java$lang$JSConsoleBasedPrintStream$$printString__T__V @ sketch-fastopt.js:13289
+$c_Ljava_io_PrintStream.println__T__V @ sketch-fastopt.js:12947
+(anonymous) @ sketch-fastopt.js:6324
+$c_jl_Throwable.printStackTrace__Ljava_io_PrintStream__V @ sketch-fastopt.js:6334
+$c_Lcom_jc776_sketch_Sketch$.main__V @ sketch-fastopt.js:1814
+$c_Lcom_jc776_sketch_Sketch$.$$js$exported$meth$main__O @ sketch-fastopt.js:1822
+$c_Lcom_jc776_sketch_Sketch$.main @ sketch-fastopt.js:1825
+(anonymous) @ client\client\index.js:2
+2../target/scala-2.12/sketch-fastopt.js @ bundle.js:8
+s @ _prelude.js:1
+(anonymous) @ _prelude.js:1
+(anonymous) @ index.js:364
+arrayEach @ node_modules\lodash\node_modules\lodash\_arrayEach.js:15
+forEach @ node_modules\lodash\node_modules\lodash\forEach.js:38
+moduleHotApply @ index.js:362
+acceptNewModules @ index.js:509
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Socket.onevent @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\socket.js:270
+Socket.onpacket @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\socket.js:228
+(anonymous) @ node_modules\component-bind\node_modules\component-bind\index.js:21
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Manager.ondecoded @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\manager.js:332
+(anonymous) @ node_modules\component-bind\node_modules\component-bind\index.js:21
+Emitter.emit @ node_modules\socket.io-parser\node_modules\component-emitter\node_modules\socket.io-parser\node_modules\component-emitter\index.js:134
+Decoder.add @ node_modules\socket.io-parser\node_modules\socket.io-parser\index.js:246
+Manager.ondata @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\manager.js:322
+(anonymous) @ node_modules\component-bind\node_modules\component-bind\index.js:21
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Socket.onPacket @ socket.js:451
+(anonymous) @ socket.js:268
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Transport.onPacket @ node_modules\engine.io-client\lib\node_modules\engine.io-client\lib\transport.js:145
+Transport.onData @ node_modules\engine.io-client\lib\node_modules\engine.io-client\lib\transport.js:137
+ws.onmessage @ websocket.js:146
+sketch-fastopt.js:13309   at {anonymous}()(http://localhost:9966/bundle.js:43856:21)
+$c_jl_JSConsoleBasedPrintStream.doWriteLine__p4__T__V @ sketch-fastopt.js:13309
+$c_jl_JSConsoleBasedPrintStream.java$lang$JSConsoleBasedPrintStream$$printString__T__V @ sketch-fastopt.js:13289
+$c_Ljava_io_PrintStream.println__T__V @ sketch-fastopt.js:12947
+(anonymous) @ sketch-fastopt.js:6324
+$c_jl_Throwable.printStackTrace__Ljava_io_PrintStream__V @ sketch-fastopt.js:6334
+$c_Lcom_jc776_sketch_Sketch$.main__V @ sketch-fastopt.js:1814
+$c_Lcom_jc776_sketch_Sketch$.$$js$exported$meth$main__O @ sketch-fastopt.js:1822
+$c_Lcom_jc776_sketch_Sketch$.main @ sketch-fastopt.js:1825
+(anonymous) @ client\client\index.js:2
+2../target/scala-2.12/sketch-fastopt.js @ bundle.js:8
+s @ _prelude.js:1
+(anonymous) @ _prelude.js:1
+(anonymous) @ index.js:364
+arrayEach @ node_modules\lodash\node_modules\lodash\_arrayEach.js:15
+forEach @ node_modules\lodash\node_modules\lodash\forEach.js:38
+moduleHotApply @ index.js:362
+acceptNewModules @ index.js:509
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Socket.onevent @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\socket.js:270
+Socket.onpacket @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\socket.js:228
+(anonymous) @ node_modules\component-bind\node_modules\component-bind\index.js:21
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Manager.ondecoded @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\manager.js:332
+(anonymous) @ node_modules\component-bind\node_modules\component-bind\index.js:21
+Emitter.emit @ node_modules\socket.io-parser\node_modules\component-emitter\node_modules\socket.io-parser\node_modules\component-emitter\index.js:134
+Decoder.add @ node_modules\socket.io-parser\node_modules\socket.io-parser\index.js:246
+Manager.ondata @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\manager.js:322
+(anonymous) @ node_modules\component-bind\node_modules\component-bind\index.js:21
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Socket.onPacket @ socket.js:451
+(anonymous) @ socket.js:268
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Transport.onPacket @ node_modules\engine.io-client\lib\node_modules\engine.io-client\lib\transport.js:145
+Transport.onData @ node_modules\engine.io-client\lib\node_modules\engine.io-client\lib\transport.js:137
+ws.onmessage @ websocket.js:146
+sketch-fastopt.js:13309   at measureLifeCyclePerf(http://localhost:9966/bundle.js:43136:12)
+$c_jl_JSConsoleBasedPrintStream.doWriteLine__p4__T__V @ sketch-fastopt.js:13309
+$c_jl_JSConsoleBasedPrintStream.java$lang$JSConsoleBasedPrintStream$$printString__T__V @ sketch-fastopt.js:13289
+$c_Ljava_io_PrintStream.println__T__V @ sketch-fastopt.js:12947
+(anonymous) @ sketch-fastopt.js:6324
+$c_jl_Throwable.printStackTrace__Ljava_io_PrintStream__V @ sketch-fastopt.js:6334
+$c_Lcom_jc776_sketch_Sketch$.main__V @ sketch-fastopt.js:1814
+$c_Lcom_jc776_sketch_Sketch$.$$js$exported$meth$main__O @ sketch-fastopt.js:1822
+$c_Lcom_jc776_sketch_Sketch$.main @ sketch-fastopt.js:1825
+(anonymous) @ client\client\index.js:2
+2../target/scala-2.12/sketch-fastopt.js @ bundle.js:8
+s @ _prelude.js:1
+(anonymous) @ _prelude.js:1
+(anonymous) @ index.js:364
+arrayEach @ node_modules\lodash\node_modules\lodash\_arrayEach.js:15
+forEach @ node_modules\lodash\node_modules\lodash\forEach.js:38
+moduleHotApply @ index.js:362
+acceptNewModules @ index.js:509
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Socket.onevent @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\socket.js:270
+Socket.onpacket @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\socket.js:228
+(anonymous) @ node_modules\component-bind\node_modules\component-bind\index.js:21
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Manager.ondecoded @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\manager.js:332
+(anonymous) @ node_modules\component-bind\node_modules\component-bind\index.js:21
+Emitter.emit @ node_modules\socket.io-parser\node_modules\component-emitter\node_modules\socket.io-parser\node_modules\component-emitter\index.js:134
+Decoder.add @ node_modules\socket.io-parser\node_modules\socket.io-parser\index.js:246
+Manager.ondata @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\manager.js:322
+(anonymous) @ node_modules\component-bind\node_modules\component-bind\index.js:21
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Socket.onPacket @ socket.js:451
+(anonymous) @ socket.js:268
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Transport.onPacket @ node_modules\engine.io-client\lib\node_modules\engine.io-client\lib\transport.js:145
+Transport.onData @ node_modules\engine.io-client\lib\node_modules\engine.io-client\lib\transport.js:137
+ws.onmessage @ websocket.js:146
+sketch-fastopt.js:13309   at ReactCompositeComponentWrapper._renderValidatedComponentWithoutOwnerOrContext(http://localhost:9966/bundle.js:43855:25)
+$c_jl_JSConsoleBasedPrintStream.doWriteLine__p4__T__V @ sketch-fastopt.js:13309
+$c_jl_JSConsoleBasedPrintStream.java$lang$JSConsoleBasedPrintStream$$printString__T__V @ sketch-fastopt.js:13289
+$c_Ljava_io_PrintStream.println__T__V @ sketch-fastopt.js:12947
+(anonymous) @ sketch-fastopt.js:6324
+$c_jl_Throwable.printStackTrace__Ljava_io_PrintStream__V @ sketch-fastopt.js:6334
+$c_Lcom_jc776_sketch_Sketch$.main__V @ sketch-fastopt.js:1814
+$c_Lcom_jc776_sketch_Sketch$.$$js$exported$meth$main__O @ sketch-fastopt.js:1822
+$c_Lcom_jc776_sketch_Sketch$.main @ sketch-fastopt.js:1825
+(anonymous) @ client\client\index.js:2
+2../target/scala-2.12/sketch-fastopt.js @ bundle.js:8
+s @ _prelude.js:1
+(anonymous) @ _prelude.js:1
+(anonymous) @ index.js:364
+arrayEach @ node_modules\lodash\node_modules\lodash\_arrayEach.js:15
+forEach @ node_modules\lodash\node_modules\lodash\forEach.js:38
+moduleHotApply @ index.js:362
+acceptNewModules @ index.js:509
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Socket.onevent @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\socket.js:270
+Socket.onpacket @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\socket.js:228
+(anonymous) @ node_modules\component-bind\node_modules\component-bind\index.js:21
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Manager.ondecoded @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\manager.js:332
+(anonymous) @ node_modules\component-bind\node_modules\component-bind\index.js:21
+Emitter.emit @ node_modules\socket.io-parser\node_modules\component-emitter\node_modules\socket.io-parser\node_modules\component-emitter\index.js:134
+Decoder.add @ node_modules\socket.io-parser\node_modules\socket.io-parser\index.js:246
+Manager.ondata @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\manager.js:322
+(anonymous) @ node_modules\component-bind\node_modules\component-bind\index.js:21
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Socket.onPacket @ socket.js:451
+(anonymous) @ socket.js:268
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Transport.onPacket @ node_modules\engine.io-client\lib\node_modules\engine.io-client\lib\transport.js:145
+Transport.onData @ node_modules\engine.io-client\lib\node_modules\engine.io-client\lib\transport.js:137
+ws.onmessage @ websocket.js:146
+sketch-fastopt.js:13309   at ReactCompositeComponentWrapper._renderValidatedComponent(http://localhost:9966/bundle.js:43882:32)
+$c_jl_JSConsoleBasedPrintStream.doWriteLine__p4__T__V @ sketch-fastopt.js:13309
+$c_jl_JSConsoleBasedPrintStream.java$lang$JSConsoleBasedPrintStream$$printString__T__V @ sketch-fastopt.js:13289
+$c_Ljava_io_PrintStream.println__T__V @ sketch-fastopt.js:12947
+(anonymous) @ sketch-fastopt.js:6324
+$c_jl_Throwable.printStackTrace__Ljava_io_PrintStream__V @ sketch-fastopt.js:6334
+$c_Lcom_jc776_sketch_Sketch$.main__V @ sketch-fastopt.js:1814
+$c_Lcom_jc776_sketch_Sketch$.$$js$exported$meth$main__O @ sketch-fastopt.js:1822
+$c_Lcom_jc776_sketch_Sketch$.main @ sketch-fastopt.js:1825
+(anonymous) @ client\client\index.js:2
+2../target/scala-2.12/sketch-fastopt.js @ bundle.js:8
+s @ _prelude.js:1
+(anonymous) @ _prelude.js:1
+(anonymous) @ index.js:364
+arrayEach @ node_modules\lodash\node_modules\lodash\_arrayEach.js:15
+forEach @ node_modules\lodash\node_modules\lodash\forEach.js:38
+moduleHotApply @ index.js:362
+acceptNewModules @ index.js:509
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Socket.onevent @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\socket.js:270
+Socket.onpacket @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\socket.js:228
+(anonymous) @ node_modules\component-bind\node_modules\component-bind\index.js:21
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Manager.ondecoded @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\manager.js:332
+(anonymous) @ node_modules\component-bind\node_modules\component-bind\index.js:21
+Emitter.emit @ node_modules\socket.io-parser\node_modules\component-emitter\node_modules\socket.io-parser\node_modules\component-emitter\index.js:134
+Decoder.add @ node_modules\socket.io-parser\node_modules\socket.io-parser\index.js:246
+Manager.ondata @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\manager.js:322
+(anonymous) @ node_modules\component-bind\node_modules\component-bind\index.js:21
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Socket.onPacket @ socket.js:451
+(anonymous) @ socket.js:268
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Transport.onPacket @ node_modules\engine.io-client\lib\node_modules\engine.io-client\lib\transport.js:145
+Transport.onData @ node_modules\engine.io-client\lib\node_modules\engine.io-client\lib\transport.js:137
+ws.onmessage @ websocket.js:146
+index.js:511 [HMR] Error applying update $c_s_MatchError {s$1: null, e$1: null, stackTrace$1: ArrayClass, objString$4: "A (of class com.jc776.sketch.example.ReactSwap$A$)", obj$4: $c_Lcom_jc776_sketch_example_ReactSwap$A$, …}
+(anonymous) @ index.js:511
+moduleHotApply @ index.js:376
+acceptNewModules @ index.js:509
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Socket.onevent @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\socket.js:270
+Socket.onpacket @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\socket.js:228
+(anonymous) @ node_modules\component-bind\node_modules\component-bind\index.js:21
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Manager.ondecoded @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\manager.js:332
+(anonymous) @ node_modules\component-bind\node_modules\component-bind\index.js:21
+Emitter.emit @ node_modules\socket.io-parser\node_modules\component-emitter\node_modules\socket.io-parser\node_modules\component-emitter\index.js:134
+Decoder.add @ node_modules\socket.io-parser\node_modules\socket.io-parser\index.js:246
+Manager.ondata @ node_modules\socket.io-client\lib\node_modules\socket.io-client\lib\manager.js:322
+(anonymous) @ node_modules\component-bind\node_modules\component-bind\index.js:21
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Socket.onPacket @ socket.js:451
+(anonymous) @ socket.js:268
+Emitter.emit @ node_modules\component-emitter\node_modules\component-emitter\index.js:133
+Transport.onPacket @ node_modules\engine.io-client\lib\node_modules\engine.io-client\lib\transport.js:145
+Transport.onData @ node_modules\engine.io-client\lib\node_modules\engine.io-client\lib\transport.js:137
+ws.onmessage @ websocket.js:146
+index.js:514

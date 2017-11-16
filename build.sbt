@@ -1,8 +1,8 @@
 scalaVersion in ThisBuild := "2.12.3"
-resolvers in ThisBuild += Resolver.sonatypeRepo("releases")
+//resolvers in ThisBuild += Resolver.sonatypeRepo("releases")
 
 val circeVersion = "0.8.0"
-val slinkyVersion = "0.2.0-SNAPSHOT" //"0.1.1"
+val slinkyVersion = "0.1.1+23-0771ecb1" //"0.1.1"
 
 val client = project.in(file("client"))
   .settings(
@@ -40,4 +40,4 @@ scalacOptions in ThisBuild ++= Seq(
 watchSources := { Seq() } 
 
 // * 2. "This file is derived, are you sure you want to edit it?"
-EclipseKeys.eclipseOutput in ThisBuild := Some("target-ide")
+// EclipseKeys.eclipseOutput in ThisBuild := Some("target-ide")

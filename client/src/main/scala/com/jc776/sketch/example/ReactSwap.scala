@@ -9,11 +9,14 @@ import me.shadaj.slinky.core.{Writer, Reader}
 import scalajs.js 
 import org.scalajs.dom
 
+sealed trait SwapState
+case object A extends SwapState
+case object B extends SwapState
+
 object ReactSwap extends ComponentWrapper {
   type Props = Unit
-  sealed trait State
-  case object A extends State
-  case object B extends State
+  type State = SwapState
+  
   val time = new js.Date()
   implicit val stateWriter: Writer[State] = (inst, root) => {
     println(s"${time} write $inst")
@@ -38,8 +41,8 @@ object ReactSwap extends ComponentWrapper {
     
     def render() = {
       state match {
-        case A => button("B!!", onClick := {(e: dom.Event) => {println("change to B"); setState(B)} })
-        case B => button("A!!", onClick := {(e: dom.Event) => {println("change to A"); setState(A)} }) 
+        case A => button("B!", onClick := {(e: dom.Event) => {println("change to B"); setState(B)} })
+        case B => button("A!", onClick := {(e: dom.Event) => {println("change to A"); setState(A)} }) 
       }
     }
   }
