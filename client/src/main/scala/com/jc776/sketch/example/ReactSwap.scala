@@ -35,14 +35,24 @@ object ReactSwap extends ComponentWrapper {
       case _ => throw new Exception("This isn't a serialized State.")
     }
   }
+  //val writer = implicitly[Writer[State]]
+  //val wA = writer.write(A, true)
+  //println(s"A, root: ${wA} ${js.Dynamic.global.JSON.stringify(wA)}")
+  //val wB = writer.write(B, false)
+  //println(s"B, non-root: ${wB} ${js.Dynamic.global.JSON.stringify(wB)}")
+  
+  //val reader = implicitly[Reader[State]]
+  //println(s"readA ${reader.read(wA, true)}")
+  //println(s"readB ${reader.read(wB, false)}")
+  
 
   class Def(jsProps: js.Object) extends Definition(jsProps) {
     def initialState = A
     
     def render() = {
       state match {
-        case A => button("B!", onClick := {(e: dom.Event) => {println("change to B"); setState(B)} })
-        case B => button("A!", onClick := {(e: dom.Event) => {println("change to A"); setState(A)} }) 
+        case A => button("B!!", onClick := {(e: dom.Event) => {println("change to B"); setState(B)} })
+        case B => button("A!!", onClick := {(e: dom.Event) => {println("change to A"); setState(A)} }) 
       }
     }
   }

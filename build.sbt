@@ -2,7 +2,7 @@ scalaVersion in ThisBuild := "2.12.3"
 //resolvers in ThisBuild += Resolver.sonatypeRepo("releases")
 
 val circeVersion = "0.8.0"
-val slinkyVersion = "0.1.1+23-0771ecb1" //"0.1.1"
+val slinkyVersion = "0.1.1+27-c39fb5e8" //"0.1.1"
 
 val client = project.in(file("client"))
   .settings(
